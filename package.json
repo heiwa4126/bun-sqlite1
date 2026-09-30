@@ -5,6 +5,10 @@
 	"module": "src/index.ts",
 	"scripts": {
 		"index": "bun src/index.ts",
+		"create-table1": "bun src/create-table1.ts",
+		"select-table1-cli": "sqlite3 var/table1.sqlite 'select * from words;'",
+		"select1": "bun src/select1.ts",
+		"select2": "bun src/select2.ts",
 		"format": "oxfmt",
 		"lint": "oxlint",
 		"lint-tsc": "tsc --noEmit",

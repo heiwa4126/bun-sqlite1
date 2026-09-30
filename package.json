@@ -1,0 +1,19 @@
+{
+	"name": "bun-sqlite1",
+	"private": true,
+	"type": "module",
+	"module": "src/index.ts",
+	"scripts": {
+		"index": "bun src/index.ts",
+		"format": "oxfmt",
+		"lint": "oxlint",
+		"lint-tsc": "tsc --noEmit",
+		"check": "oxfmt && oxlint --fix"
+	},
+	"devDependencies": {
+		"@types/bun": "latest"
+	},
+	"peerDependencies": {
+		"typescript": "^7.0.2"
+	}
+}

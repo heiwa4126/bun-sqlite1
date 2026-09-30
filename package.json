@@ -9,6 +9,7 @@
 		"select-table1-cli": "sqlite3 var/table1.sqlite 'select * from words;'",
 		"select1": "bun src/select1.ts",
 		"select2": "bun src/select2.ts",
+		"insert1": "bun src/insert1.ts",
 		"format": "oxfmt",
 		"lint": "oxlint",
 		"lint-tsc": "tsc --noEmit",

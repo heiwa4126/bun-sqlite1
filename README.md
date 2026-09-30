@@ -24,4 +24,10 @@ bun run create-table1
 # select のテスト
 bun run select1
 bun run select2
+
+# insert のテスト
+bun run insert1
+bun run insert1  # 2度目は UNIQUE 制約でエラーになる
+bun run select1
+bun run select2
 ```

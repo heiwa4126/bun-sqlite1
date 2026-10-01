@@ -30,4 +30,10 @@ bun run insert1
 bun run insert1  # 2度目は UNIQUE 制約でエラーになる
 bun run select1
 bun run select2
+
+# upsert のテスト
+bun run create-table1
+bun run upsert1
+bun run upsert2
+bun run upsert1
 ```

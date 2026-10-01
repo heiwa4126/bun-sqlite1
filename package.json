@@ -10,6 +10,8 @@
 		"select1": "bun src/select1.ts",
 		"select2": "bun src/select2.ts",
 		"insert1": "bun src/insert1.ts",
+		"upsert1": "bun src/upsert1.ts",
+		"upsert2": "bun src/upsert2.ts",
 		"format": "oxfmt",
 		"lint": "oxlint",
 		"lint-tsc": "tsc --noEmit",
